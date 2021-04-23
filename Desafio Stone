@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Leitura das bases de dados
-cards = pd.read_csv(r'C:\Users\Victor Maranholi\Documents\Desafio Stone/dataset-cards.csv', sep=';')
-customers = pd.read_csv(r'C:\Users\Victor Maranholi\Documents\Desafio Stone/dataset-customers.csv', sep=';')
-frauds = pd.read_csv(r'C:\Users\Victor Maranholi\Documents\Desafio Stone/dataset-frauds.csv', sep=';')
-transactions = pd.read_csv(r'C:\Users\Victor Maranholi\Documents\Desafio Stone/dataset-transactions.csv', sep=';')
+cards = pd.read_csv(r'/dataset-cards.csv', sep=';')
+customers = pd.read_csv(r'/dataset-customers.csv', sep=';')
+frauds = pd.read_csv(r'/dataset-frauds.csv', sep=';')
+transactions = pd.read_csv(r'/dataset-transactions.csv', sep=';')
 
 def quest1():
     print("Media da idade dos clientes: {:.4f}\n".format(customers['age'].mean()))
